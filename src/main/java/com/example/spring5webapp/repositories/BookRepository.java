@@ -1,6 +1,6 @@
-package repositories;
+package com.example.spring5webapp.repositories;
 
-import domain.Book;
+import com.example.spring5webapp.domain.Book;
 import org.springframework.data.repository.CrudRepository;
 
 public interface BookRepository extends CrudRepository<Book, Long> {
